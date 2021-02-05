@@ -158,6 +158,11 @@ qae_page($list->page,$list->totalpage,4)//获取当前显示多少个页码
                 </div>
             </div>
     @endforeach
+//播放页同名资源切换
+$samesource
+@foreach($samesource as $source)
+<li><a href="/play/{{$source->id}}">{{$source->title}}</a></li>
+@endforeach
 
 //搜索页数据变量:$search
 当前搜索内容数量:$search->count
