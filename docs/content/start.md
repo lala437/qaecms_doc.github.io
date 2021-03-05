@@ -21,7 +21,7 @@
 # 建立站点
 ![jz](../images/jz.png ':size=80%')
 # 上传或者远程下载最新包到网站目录
-> 地址:https://qaecms.lanzous.com/qaecms-lasted
+> github:[qaecms](https://github.com/lala437/qaecms)
 # 网站设置
 > 运行目录修改为public
 >
