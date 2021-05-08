@@ -30,7 +30,7 @@
 >
 ````
 location = / {
-    try_files /qaecms_page/pc__index__pc.html /index.php?$query_string;
+    try_files /qaecms_page/index.html /index.php?$query_string;
 }
 
 location / {
